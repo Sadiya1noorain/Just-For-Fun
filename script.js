@@ -42,8 +42,8 @@ move.addEventListener('mouseover', function () {
 });
 
 move.addEventListener('touchstart', function () {
-  modal.style.top = Math.random() * (screen.innerHeight / 4) + "px";
-  modal.style.left = Math.random() * (screen.innerWidth / 4) + "px";
+  modal.style.top = Math.random() * (screen.innerHeight) + "px";
+  modal.style.left = Math.random() * (screen.innerWidth) + "px";
 });
 
 yes.addEventListener('click', function () {
